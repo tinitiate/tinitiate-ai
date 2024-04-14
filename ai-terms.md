@@ -22,24 +22,31 @@
 * It typically consists of input features (independent variables) and corresponding output labels (dependent variables) for supervised learning, or just input features for unsupervised learning.
 * The quality, quantity, and relevance of the dataset significantly impact the performance of the ML models.
 
-## Supervised Learning
+## AI Learning Methodologies
+### Supervised Learning
 * Supervised learning is a type of machine learning where the algorithm is trained on a labeled dataset, meaning each training example is paired with an output label.
 * The algorithm learns a function that maps inputs to desired outputs and can then make predictions on new, unseen data.
 
-## Unsupervised Learning
+### Semi-Supervised Learning
+
+### Unsupervised Learning
 * Unsupervised learning is a type of machine learning where the algorithm is trained on a dataset without any labels.
 * The goal is to discover underlying patterns, structures, or distributions in the data, such as grouping similar data points into clusters.
 
-## Reinforcement Learning
+### Reinforcement Learning
 * Reinforcement learning is a type of machine learning where an agent learns to make decisions by taking actions in an environment to achieve a goal.
 * The agent receives rewards or penalties based on the outcomes of its actions and uses this feedback to learn the optimal strategy for achieving its objective.
 
-## Language Chains (Langchains)
+
+##
+### Vector Databases
+
+### Language Chains (Langchains)
 * Language chains, or langchains, refer to the concept of chaining together multiple language models or natural language processing (NLP) tasks to achieve more complex or nuanced outcomes.
 * For example, one might use a language model to generate a summary of a text, then use another model to translate that summary into a different language, effectively creating a chain of language tasks.
 * Langchains can enable more sophisticated AI applications by leveraging the strengths of different models or tasks in sequence.
 
-## Retrieval-Augmented Generation (RAG)
+### Retrieval-Augmented Generation (RAG)
 * Retrieval-Augmented Generation (RAG) is a natural language processing (NLP) technique that combines the strengths of two different approaches: retrieval-based methods and generative models.
 * The goal of RAG is to enhance the ability of a generative model to produce more accurate and contextually relevant responses by incorporating external information retrieved from a large corpus or database.
 * In a typical RAG setup, when a query or prompt is provided, the retrieval component first searches a large collection of documents or knowledge base to find relevant information.
